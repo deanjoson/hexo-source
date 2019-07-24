@@ -92,9 +92,9 @@ permalink_pinyin:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: sftp
-  host: coolwang.cn
-  user: root
-  pass: CoolWang@148625
-  remotePath: /root/nginx/dist/blog
+#deploy:
+#  type: sftp
+#  host: coolwang.cn
+#  user: root
+#  pass: CoolWang@148625
+#  remotePath: /root/nginx/dist/blog
