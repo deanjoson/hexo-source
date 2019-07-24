@@ -80,11 +80,21 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: matery
 
+#搜索
 search:
   path: search.xml
   field: post
 
+# 中文链接转拼音
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: sftp
+  host: coolwang.cn
+  user: root
+  pass: CoolWang@148625
+  remotePath: /root/nginx/dist/blog
