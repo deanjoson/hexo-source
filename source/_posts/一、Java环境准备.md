@@ -34,7 +34,7 @@ date: 2019-08-24 11:27:24
 ```bash
 #打开终端执行 java -version 查看是否正确安装java运行时环境
 #打开终端执行 javac -version 查看是否正确安装java编译器环境
-#如果出现找不到命令则进行后续操作
+#如果出现找不到命令则进行环境配置操作
  ~  java -version
 java version "1.8.0_211"
 Java(TM) SE Runtime Environment (build 1.8.0_211-b12)
